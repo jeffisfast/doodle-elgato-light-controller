@@ -28,8 +28,9 @@ Instructions
 1. You will need to install NodeJS on your machine.  
 2. Download this code and use the command `npm run make` to have it compile the code.  Look in the newly created "out" directory for the binary.  
 3. Optionally, use the command `npm run start` to just run the code without compiling it.  That might be easier when you're just starting out to make sure you like it.
-4. Once the program is running, click on the menu choice "IP Settings" and input your light's IP address.  I recommend giving your light a static IP address.
-5. There is a global command shortcut of Alt-Command-J to toggle your light on and off.  That's my favorite feature.
+4. The app only installs as a menubar (on Mac) or system tray (Linux / Windows) item.  It doesn't have an actual window that opens so look for Doodle's icon to use the program.
+5. Once the program is running, click on the menu choice "IP Settings" and input your light's IP address.  I recommend giving your light a static IP address.
+6. There is a global command shortcut of Alt-Command-J to toggle your light on and off.  That's my favorite feature.
 
 Known Issues and Limitations
 ============================
