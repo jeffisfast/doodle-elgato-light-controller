@@ -247,6 +247,7 @@ function normal_loop() {
 app.on('window-all-closed', e => e.preventDefault() );
 app.on('ready', function(){
   trayIcon = new Tray(tray_iconPath);
+  render_normal_menu();
   globalShortcut.register('Alt+CommandOrControl+J', () => {
     console.log('Doodle loves global shortcuts!');
     toggle_light();
