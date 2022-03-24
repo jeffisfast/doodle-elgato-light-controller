@@ -9,18 +9,18 @@
   "dependencies": {
     "about-window": "^1.15.1",
     "electron-app-settings": "^1.2.2",
+    "electron-prompt": "^1.7.0",
     "electron-squirrel-startup": "^1.0.0",
     "node-gyp-build": "^4.3.0",
-    "xmlhttprequest": "1.8.0",
-    "electron-prompt": "^1.7.0"
+    "xmlhttprequest": "1.8.0"
   },
   "devDependencies": {
-    "electron": "^15.3.0",
     "@electron-forge/cli": "^6.0.0-beta.61",
     "@electron-forge/maker-deb": "^6.0.0-beta.61",
     "@electron-forge/maker-rpm": "^6.0.0-beta.61",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
-    "@electron-forge/maker-zip": "^6.0.0-beta.61"
+    "@electron-forge/maker-zip": "^6.0.0-beta.61",
+    "electron": "^15.4.2"
   },
   "scripts": {
     "start": "electron-forge start",

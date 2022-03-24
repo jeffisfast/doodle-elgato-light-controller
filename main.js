@@ -255,5 +255,6 @@ app.on('ready', function(){
   if (!settings.has('light.ip')) {
     showNotification('Please set an IP address of your Elgato Key Light.');
   }
+  app.dock.hide();
   normal_loop();
   });
